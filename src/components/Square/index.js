@@ -19,7 +19,7 @@ StyledSquare.displayName = 'StyledSquare'
 export default function Square ({ index, player }) {
   return (
     <StyledSquare index={index} player={player}>
-      {props.player}
+      {player}
     </StyledSquare>
   )
 }
